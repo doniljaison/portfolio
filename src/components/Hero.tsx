@@ -26,7 +26,7 @@ function Hero() {
         {/* Action buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-10">
           <button
-            onClick={() => scrollToSection("about")}
+            onClick={() => scrollToSection("projects")}
             className="px-5 py-2.5 rounded-md bg-white text-slate-900 hover:bg-slate-100 transition-colors"
           >
             View my work
