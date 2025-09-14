@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/', // Only use /portfolio/ for production builds
+  base: '/portfolio/', // This MUST be correct for GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
