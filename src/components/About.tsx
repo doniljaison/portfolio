@@ -42,7 +42,7 @@ function About() {
             <p className="text-gray-600 leading-relaxed mb-6">
               I'm a passionate Computer Science student currently pursuing my BTech from IIIT Sri City. 
               My journey in technology started with curiosity about how digital systems work, and has 
-              evolved into a strong foundation in full-stack development and computer science fundamentals.
+              evolved into a strong foundation in web development and computer science fundamentals.
               I'm excited to learn new technologies and build impactful solutions.
             </p>
             
