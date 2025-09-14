@@ -54,7 +54,7 @@ function About() {
               </div>
               <div>
                 <div>
-                  <h5 className="font-semibold mb-2 text-gray-800">Full-Stack Development</h5>
+                  <h5 className="font-semibold mb-2 text-gray-800">Web Development</h5>
                   <p className="text-gray-600 text-sm">
                     Learning and building web applications with modern technologies like React, Node.js, and JavaScript
                   </p>
