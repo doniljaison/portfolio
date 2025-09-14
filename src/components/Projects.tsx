@@ -12,13 +12,6 @@ function Projects() {
       demo: null
     },
     {
-      title: "This Portfolio Website",
-      description: "The site you're viewing now. Built with React + TypeScript and Tailwind CSS, focused on minimal, fast, and accessible design with clean component structure.",
-      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-      github: "https://github.com/doniljaison/portfolio",
-      demo: null
-    },
-    {
       title: "Sports Event Management System",
       description: "A web application for managing sports events with different user roles: Organizer, Player, and Manager.",
       technologies: ["Node.js", "Express.js", "MongoDB", "EJS"],
