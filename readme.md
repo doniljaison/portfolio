@@ -92,26 +92,11 @@ Edit these files with your information:
 - `src/components/Skills.tsx` - Your skills
 - `src/components/Contact.tsx` - Your contact details
 
-### Change Colors
-The website uses simple colors. You can change them by editing the Tailwind classes in each component.
-
 ### Add New Sections
 1. Create a new file in `src/components/`
 2. Add it to `src/pages/Index.tsx`
 3. Add a link in `src/components/Header.tsx`
 
-## Deploying This Website
-
-You can host this website for free on:
-- **Vercel** - Just connect your GitHub account
-- **Netlify** - Drag and drop the `dist` folder
-- **GitHub Pages** - Use GitHub Actions
-
-## Contact Me
-
-- Email: donil.j23@iiits.in
-- GitHub: [Your GitHub Profile]
-- LinkedIn: [Your LinkedIn Profile]
 
 ---
 
