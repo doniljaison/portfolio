@@ -1,5 +1,5 @@
 // Contact section component - has contact form and info
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, ArrowDown } from "lucide-react";
 import { useState } from "react";
 
 function Contact() {
@@ -55,11 +55,6 @@ function Contact() {
     });
   }
 
-  // Handle resume download
-  function handleDownloadResume() {
-    alert("Resume download will be available soon.");
-  }
-
   return (
     <section id="contact" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
@@ -105,7 +100,7 @@ function Contact() {
               
               <div className="mt-8">
                 <h4 className="font-semibold mb-4">Connect with me</h4>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 mb-4">
                   <a href="https://github.com/doniljaison" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
                     <Github size={24} />
                   </a>
@@ -114,9 +109,17 @@ function Contact() {
                   </a>
                   {/* Twitter removed */}
                 </div>
+                
+                {/* Resume download button */}
+                <a
+                  href="/portfolio/resume.pdf"
+                  download="Donil_Jaison_Resume.pdf"
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <ArrowDown size={16} className="mr-2" />
+                  Download Resume
+                </a>
               </div>
-              
-              {/* Resume download removed */}
             </div>
           </div>
           

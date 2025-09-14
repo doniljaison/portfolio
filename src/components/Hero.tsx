@@ -38,7 +38,7 @@ function Hero() {
             Get in touch
           </button>
           <a
-            href="/resume.pdf"
+            href="/portfolio/resume.pdf"
             download="Donil_Jaison_Resume.pdf"
             className="px-5 py-2.5 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white transition-colors"
           >
