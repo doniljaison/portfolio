@@ -1,0 +1,106 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{lmodern}
+
+% Custom colors
+\definecolor{primaryblue}{RGB}{59, 130, 246}
+\definecolor{darkgray}{RGB}{55, 65, 81}
+\definecolor{lightgray}{RGB}{107, 114, 128}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting - balanced spacing
+\titleformat{\section}{\large\bfseries\color{primaryblue}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{5pt}
+
+% Compact lists - Added a small itemsep for readability
+\setlist[itemize]{leftmargin=*,itemsep=2pt,topsep=0pt}
+
+% Header
+\newcommand{\resumeheader}[4]{
+    \begin{center}
+        {\Huge\bfseries\color{primaryblue} #1} \\
+        \vspace{0.25em}
+        {#2} \\
+        \vspace{0.25em}
+        \faEnvelope\ #3 \quad | \quad \faMapMarker\ #4 \\
+        \faGithub\ \href{https://github.com/doniljaison}{github.com/doniljaison} \quad | \quad
+        \faLinkedin\ \href{https://linkedin.com/in/donil-jaison-93a17428a}{linkedin.com/in/donil-jaison-93a17428a}
+    \end{center}
+    \vspace{0.2em} % Small space after header
+}
+
+\begin{document}
+
+\resumeheader
+{Donil Jaison}
+{Computer Science Student}
+{donil.j23@iiits.in}
+{Thrissur, Kerala}
+
+% Education
+\section*{Education}
+\noindent % Prevents indentation
+\textbf{Indian Institute of Information Technology, Sri City} \hfill 2023 -- 2027 \\
+\textit{Bachelor of Technology in Computer Science \& Engineering} \hfill \textbf{GPA:} 7.86/10.0 \\
+\parbox[t]{0.9\textwidth}{\textit{Relevant Coursework:} Data Structures \& Algorithms, Operating Systems, Database Management Systems, Computer Networks, Web Development}
+\vspace{0.8em} % Balanced space
+
+\noindent % Prevents indentation
+\textbf{The Indian School, Kingdom of Bahrain} \hfill 2023 \\
+\textit{Class XII} \hfill \textbf{Percentage:} 94.6\% \\
+Subjects: Mathematics, Physics, Chemistry, Computer Science, English
+\vspace{0.8em} % Balanced space
+
+\noindent % Prevents indentation
+\textbf{The Indian School, Kingdom of Bahrain} \hfill 2021 \\
+\textit{Class X} \hfill \textbf{Percentage:} 91.6\% \\
+
+% Technical Skills
+\section*{Technical Skills}
+\textbf{Frontend:} React, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS \\[3pt]
+\textbf{Backend:} Node.js, Python, Express.js, MongoDB, MySQL \\[3pt]
+\textbf{Tools:} Git, GitHub, Linux \\[3pt]
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Operating Systems, DBMS, Computer Networks
+
+% Projects
+\section*{Projects}
+\noindent % Prevents indentation
+\textbf{AI Research Project - GRASP Algorithm} \\
+\textit{Technologies: Python, Machine Learning, Graph Algorithms} \\
+Implemented optimal algebraic breadth-first search for sparse graphs using GRASP metaheuristic. Features ML-enhanced search, GUI visualization, and performance optimization.
+\vspace{0.8em} % Balanced space
+
+\noindent % Prevents indentation
+\textbf{Portfolio Website} \\
+\textit{Technologies: React, TypeScript, Vite, Tailwind CSS} \\
+Responsive personal portfolio with animations, contact form integration, and clean UI/UX design.
+\vspace{0.8em} % Balanced space
+
+\noindent % Prevents indentation
+\textbf{Sports Event Management System} \\
+\textit{Technologies: Node.js, Express.js, MongoDB, EJS} \\
+Web app with role-based dashboards and event management for organizers, players, and managers.
+
+% Achievements
+\section*{Achievements}
+\begin{itemize}
+    \item \textbf{Principal's List} – The Indian School, Kingdom of Bahrain (2023) – Achieved 94.6\% in Class XII.
+    \item \textbf{Assistant House Captain} – Led house activities and represented in various school events.
+\end{itemize}
+
+% Extracurricular
+\section*{Extracurricular Activities}
+\begin{itemize}
+    \item \textbf{Badminton} – School team member for 4 years, participated in CBSE clusters, won individual awards.
+    \item \textbf{Karate} – Achieved club and national-level medals in individual competitions.
+\end{itemize}
+
+\end{document}

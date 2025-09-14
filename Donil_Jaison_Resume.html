@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donil Jaison - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            color: #3b82f6;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header h2 {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section h3 {
+            color: #3b82f6;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+        
+        .subsection {
+            margin-bottom: 15px;
+        }
+        
+        .subsection h4 {
+            color: #374151;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .subsection .meta {
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .subsection .description {
+            margin-bottom: 10px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .skill-category {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .skill-category h4 {
+            color: #3b82f6;
+            margin-bottom: 10px;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .skill-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+        
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 8px;
+        }
+        
+        .project h4 {
+            color: #374151;
+            margin-bottom: 8px;
+        }
+        
+        .project .technologies {
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .achievement {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f9fafb;
+            border-radius: 6px;
+        }
+        
+        .achievement strong {
+            color: #374151;
+        }
+        
+        .achievement .organization {
+            color: #6b7280;
+            font-style: italic;
+        }
+        
+        .extracurricular {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f9fafb;
+            border-radius: 6px;
+        }
+        
+        .extracurricular strong {
+            color: #374151;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        @media print {
+            body {
+                font-size: 12px;
+            }
+            .container {
+                max-width: none;
+                padding: 0;
+            }
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Donil Jaison</h1>
+            <h2>Computer Science Student</h2>
+            <div class="contact-info">
+                <span>📧 donil.j23@iiits.in</span>
+                <span>🐙 github.com/doniljaison</span>
+                <span>💼 linkedin.com/in/donil-jaison-93a17428a/</span>
+                <span>📍 Thrissur, Kerala</span>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h3>Education</h3>
+            
+            <div class="subsection">
+                <h4>Indian Institute of Information Technology, Sri City</h4>
+                <div class="meta">Bachelor of Technology in Computer Science & Engineering | 2023 -- 2027</div>
+                <div class="description">GPA: 7.86/10.0</div>
+                <div class="description"><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Operating Systems, Database Management Systems, Computer Networks, Web Development</div>
+            </div>
+            
+            <div class="subsection">
+                <h4>The Indian School, Kingdom of Bahrain</h4>
+                <div class="meta">Class XII (Senior Secondary) | 2023</div>
+                <div class="description">Percentage: 94.6%</div>
+                <div class="description"><strong>Subjects:</strong> Mathematics, Physics, Chemistry, Computer Science, English</div>
+            </div>
+            
+            <div class="subsection">
+                <div class="meta">Class X (Secondary) | 2021</div>
+                <div class="description">Percentage: 91.6%</div>
+                <div class="description"><strong>Subjects:</strong> Mathematics, Science, Social Science, English, Hindi</div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Backend Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Development Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>CS Fundamentals</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">DBMS</span>
+                        <span class="skill-tag">Computer Networks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h3>Projects</h3>
+            
+            <div class="project">
+                <h4>AI Research Project - GRASP Algorithm</h4>
+                <div class="technologies">Technologies: Python, Machine Learning, Graph Algorithms, GUI, GRASP Metaheuristic</div>
+                <div class="description">Implementation of Optimal Algebraic Breadth-First Search for Sparse Graphs using GRASP metaheuristic. Features ML-enhanced search, GUI visualization, and performance optimization for complex graph traversal problems.</div>
+            </div>
+            
+            <div class="project">
+                <h4>This Portfolio Website</h4>
+                <div class="technologies">Technologies: React, TypeScript, Vite, Tailwind CSS</div>
+                <div class="description">A responsive portfolio website built with modern web technologies, featuring clean design, smooth animations, and contact form integration. Focused on minimal, fast, and accessible design with clean component structure.</div>
+            </div>
+            
+            <div class="project">
+                <h4>Sports Event Management System</h4>
+                <div class="technologies">Technologies: Node.js, Express.js, MongoDB, EJS</div>
+                <div class="description">A web application for managing sports events with different user roles: Organizer, Player, and Manager. Features user authentication, role-based dashboards, and event management capabilities.</div>
+            </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="section">
+            <h3>Achievements</h3>
+            
+            <div class="achievement">
+                <strong>Principal's List</strong> - The Indian School, Kingdom of Bahrain (2023)
+                <div class="description">Achieved 94.6% in Class XII CBSE examinations</div>
+            </div>
+            
+            <div class="achievement">
+                <strong>Assistant House Captain</strong> - The Indian School, Kingdom of Bahrain
+                <div class="description">Led house activities and represented house in various school events</div>
+            </div>
+        </div>
+
+        <!-- Extracurricular Activities -->
+        <div class="section">
+            <h3>Extracurricular Activities</h3>
+            
+            <div class="extracurricular">
+                <strong>Badminton</strong>
+                <div class="description">School team member for 4 years, participated in CBSE clusters, and won individual competition awards</div>
+            </div>
+            
+            <div class="extracurricular">
+                <strong>Karate</strong>
+                <div class="description">Achieved club and national level medals in individual karate competitions</div>
+            </div>
+        </div>
+
+        <!-- Additional Information -->
+        <div class="section">
+            <h3>Additional Information</h3>
+            <ul>
+                <li><strong>Status:</strong> Currently pursuing BTech in Computer Science & Engineering</li>
+                <li><strong>Focus:</strong> Full-Stack Development and Computer Science Fundamentals</li>
+                <li><strong>Interests:</strong> Web development, machine learning, algorithm optimization, and creating meaningful digital experiences</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
