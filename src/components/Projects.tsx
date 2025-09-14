@@ -15,7 +15,7 @@ function Projects() {
       title: "This Portfolio Website",
       description: "The site you're viewing now. Built with React + TypeScript and Tailwind CSS, focused on minimal, fast, and accessible design with clean component structure.",
       technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-      github: "#", // to be updated when you share the link
+      github: "https://github.com/doniljaison/portfolio",
       demo: null
     },
     {
