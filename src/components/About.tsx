@@ -9,7 +9,7 @@ function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Passionate developer with a keen eye for design and a love for creating meaningful digital experiences
+            Computer Science student building practical web and analytics projects with strong engineering fundamentals
           </p>
         </div>
         
@@ -29,6 +29,8 @@ function About() {
               {/* Skills tags */}
               <div className="flex flex-wrap gap-2 mt-4">
                 <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Computer Science</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Web Development</span>
+                <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Data Analytics</span>
               </div>
             </div>
           </div>
@@ -40,10 +42,10 @@ function About() {
               <h3 className="text-2xl font-semibold">About Me</h3>
             </div>
             <p className="text-gray-600 leading-relaxed mb-6">
-              I'm a passionate Computer Science student currently pursuing my BTech from IIIT Sri City. 
-              My journey in technology started with curiosity about how digital systems work, and has 
-              evolved into a strong foundation in web development and computer science fundamentals.
-              I'm excited to learn new technologies and build impactful solutions.
+              I am currently pursuing BTech in Computer Science and Engineering at IIIT Sri City. I enjoy
+              building end-to-end products, from designing role-based web platforms to developing
+              analytics dashboards that convert large datasets into clear, actionable insights.
+              My core interests include full-stack development, optimization problems, and applied machine learning.
             </p>
             
             {/* What I do section */}
@@ -56,7 +58,13 @@ function About() {
                 <div>
                   <h5 className="font-semibold mb-2 text-gray-800">Web Development</h5>
                   <p className="text-gray-600 text-sm">
-                    Learning and building web applications with modern technologies like React, Node.js, and JavaScript
+                    Building responsive and role-based applications with React.js, Node.js, Express.js, and API-driven architectures.
+                  </p>
+                </div>
+                <div className="mt-4">
+                  <h5 className="font-semibold mb-2 text-gray-800">Data and Optimization</h5>
+                  <p className="text-gray-600 text-sm">
+                    Developing Python-based analytics workflows and optimization models for logistics, sales, and sparse graph problems.
                   </p>
                 </div>
               </div>

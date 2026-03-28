@@ -6,31 +6,30 @@ function Skills() {
   const skillCategories = [
     {
       icon: Code2,
-      title: "Frontend Development",
-      skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"]
+      title: "Languages",
+      skills: ["Python", "Java", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3", "C"]
     },
     {
       icon: Database,
-      title: "Backend Development", 
-      skills: ["Node.js", "Python", "Express.js", "MongoDB", "MySQL"]
+      title: "Frameworks & Libraries", 
+      skills: ["Node.js", "Express.js", "React.js", "Pandas", "NumPy", "Matplotlib"]
     },
     {
       icon: Palette,
-      title: "Development Tools",
-      skills: ["Git", "GitHub", "Linux"]
+      title: "Tools & Core",
+      skills: ["Git", "GitHub", "MongoDB", "AWS", "REST", "SOAP", "GraphQL", "Linux"]
     },
     {
       icon: Cloud,
-      title: "Computer Science Fundamentals",
-      skills: ["Data Structures and Algorithms", "Operating Systems", "DBMS", "Computer Networks"]
+      title: "Coursework",
+      skills: ["DBMS", "Object-Oriented Programming", "DSA", "Operating Systems", "Computer Networks"]
     }
   ];
 
   // All technologies I know
   const technologies = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", "Express.js",
-    "MongoDB", "HTML5", "CSS3", "Tailwind CSS", "Git", "GitHub"
-    , "Linux"
+    "Python", "Java", "JavaScript", "SQL", "React.js", "Node.js", "Express.js",
+    "Pandas", "NumPy", "Matplotlib", "MongoDB", "AWS", "Git", "GitHub", "GraphQL", "Linux"
   ];
 
   return (
@@ -40,7 +39,7 @@ function Skills() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-gray-800">Skills & Expertise</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A comprehensive toolkit of modern technologies and methodologies
+            Technical toolkit built through projects in software engineering, analytics, and optimization
           </p>
         </div>
         

@@ -2,6 +2,8 @@
 import { Github, Linkedin, ArrowDown } from "lucide-react";
 
 function Hero() {
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
+
   // Function to scroll to different sections when buttons are clicked
   function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
@@ -20,7 +22,7 @@ function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-slate-200/90 leading-relaxed mb-10">
-          Computer Science student focused on modern web development and clean, usable interfaces.
+          BTech CSE student at IIIT Sri City focused on full-stack web development, data-driven solutions, and scalable systems.
         </p>
 
         {/* Action buttons */}
@@ -38,7 +40,7 @@ function Hero() {
             Get in touch
           </button>
           <a
-            href="/portfolio/resume.pdf"
+            href={resumeUrl}
             download="Donil_Jaison_Resume.pdf"
             className="px-5 py-2.5 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white transition-colors"
           >

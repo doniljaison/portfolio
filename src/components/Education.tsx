@@ -5,26 +5,26 @@ const Education = () => {
     {
       degree: "Bachelor of Technology in Computer Science & Engineering",
       school: "Indian Institute of Information Technology, Sri City",
-      period: "2023 - 2027",
-      gpa: "7.86/10.0",
-      description: "Currently pursuing BTech with focus on Full-Stack Development and Computer Science Fundamentals",
-      courses: ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks", "Web Development"]
+      period: "Expected May 2027",
+      gpa: "7.7/10.0",
+      description: "Coursework includes core CS foundations with focus on software systems and development.",
+      courses: ["DBMS", "Object-Oriented Programming", "DSA", "Operating Systems", "Computer Networks"]
     },
     {
       degree: "Class XII (Senior Secondary)",
       school: "The Indian School, Kingdom of Bahrain",
       period: "2023",
       gpa: "94.6%",
-      description: "CBSE Class XII with Mathematics and Computer Science; awarded Principal's List for outstanding academic performance.",
-      courses: ["Mathematics", "Physics", "Chemistry", "Computer Science", "English"]
+      description: "CBSE Class XII with Computer Science, Mathematics, and Physics.",
+      courses: ["Computer Science", "Mathematics", "Physics"]
     },
     {
       degree: "Class X (Secondary)",
       school: "The Indian School, Kingdom of Bahrain", 
       period: "2021",
       gpa: "91.6%",
-      description: "CBSE Class X with strong fundamentals across core subjects; achieved distinction with consistent academic record.",
-      courses: ["Mathematics", "Science", "Social Science", "English", "Hindi"]
+      description: "CBSE Class X with distinction and strong academic performance.",
+      courses: ["CBSE Curriculum"]
     }
   ];
 
@@ -32,23 +32,23 @@ const Education = () => {
     {
       title: "Principal's List",
       organization: "The Indian School, Kingdom of Bahrain",
-      description: "Achieved 94.6% in Class XII CBSE examinations"
+      description: "Awarded for academic excellence in CBSE Class XII results."
     },
     {
       title: "Assistant House Captain",
       organization: "The Indian School, Kingdom of Bahrain",
-      description: "Led house activities and represented house in various school events"
+      description: "Led a student body of 100+ and coordinated large-scale event logistics."
     }
   ];
 
   const extracurricular = [
     {
       title: "Badminton",
-      description: "School team member for 4 years, participated in CBSE clusters, and won individual competition awards"
+      description: "Represented school in CBSE Cluster tournaments."
     },
     {
       title: "Karate",
-      description: "Achieved club and national level medals in individual karate competitions"
+      description: "Secured medals in national-level competitions."
     }
   ];
 
